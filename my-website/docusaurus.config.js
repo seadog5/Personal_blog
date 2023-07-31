@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Seadog Website',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -14,12 +14,13 @@ const config = {
   url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/personal_blog/',
+  baseUrl: '/seadog.github.io/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'seadog5', // Usually your GitHub org/user name.
-  projectName: 'personal_blog', // Usually your repo name.
+  projectName: 'seadog.github.io', // Usually your repo name.
+  trailingSlash: false,
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
