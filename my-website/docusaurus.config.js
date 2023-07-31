@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Seadog Website',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -14,14 +14,14 @@ const config = {
   url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/my-seadog-website/',
+  baseUrl: '/seadog.github.io/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'seadog5', // Usually your GitHub org/user name.
-  projectName: '/my-seadog-website/', // Usually your repo name.
+  projectName: 'seadog.github.io', // Usually your repo name.
   trailingSlash: false,
-  deploymentBranch: 'main',
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -66,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Seadog\'s Site',
+        title: 'My Site',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -74,13 +74,13 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'MySidebar',
+            sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'About Me',
+            label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/seadog5/my-seadog-website',
+            href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
@@ -124,12 +124,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/seadog5/my-seadog-website',
+                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Seadog\'s Site`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
