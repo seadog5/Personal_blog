@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8753],{5136:e=>{e.exports=JSON.parse('{"label":"test","permalink":"/my-seadog-website/blog/tags/test","allTagsPath":"/my-seadog-website/blog/tags","count":1}')}}]);
